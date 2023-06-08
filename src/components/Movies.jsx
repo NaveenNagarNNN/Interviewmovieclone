@@ -114,13 +114,13 @@ function Movies() {
                                 }}
                             >
                                 {favourites.includes(movie.id) == false ? <div className="
-                                text-2xl
+                                text-2xl cursor-pointer
                                 "
                                     onClick={() => { addEmoji(movie.id) }}
                                 >
                                     😍
                                 </div> : <div className="
-                                text-2xl
+                                text-2xl cursor-pointer
                                 "
                                     onClick={() => { removeEmoji(movie.id) }}
 
